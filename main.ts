@@ -1,6 +1,13 @@
 let luminosidad = 0
 let temperatura = 0
 input.onButtonPressed(Button.A, function () {
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
     luminosidad = input.lightLevel()
     if (luminosidad > 150) {
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Entertainer), music.PlaybackMode.InBackground)
