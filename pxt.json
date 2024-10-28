@@ -1,5 +1,5 @@
 {
-    "name": "microbit-template-repo",
+    "name": "sensors",
     "description": "",
     "dependencies": {
         "core": "*",
